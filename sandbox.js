@@ -38,3 +38,15 @@ ninja_cat = {
     age: 5,
     food_fav: "fish"
 };
+/*lesson #5 */
+var flower;
+var flowerAge;
+var smellsGood;
+var cats = [];
+var hybred = [];
+var uid;
+flowerAge = 50;
+smellsGood = true;
+cats = ["yuki"];
+uid = 'yaya';
+uid = 5;

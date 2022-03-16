@@ -42,3 +42,17 @@ ninja_cat = {
     age: 5,
     food_fav: "fish"
 }
+/*lesson #5 */
+let flower : String;
+let flowerAge: number;
+let smellsGood: boolean;
+let cats: String[] = [];
+let hybred: (String | number)[] = []
+let uid: String|number;
+
+flowerAge = 50;
+smellsGood = true;
+cats = ["yuki"];
+uid = 'yaya'
+uid = 5
+
