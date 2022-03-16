@@ -39,14 +39,39 @@ ninja_cat = {
     food_fav: "fish"
 };
 /*lesson #5 */
+//basic types
 var flower;
 var flowerAge;
 var smellsGood;
+//arrays
 var cats = [];
 var hybred = [];
 var uid;
+//objects
+var test1;
+test1 = {
+    title: "algebra",
+    grade: 3
+};
+var test2;
+test2 = {
+    title: "algebra",
+    grade: 3
+};
 flowerAge = 50;
 smellsGood = true;
 cats = ["yuki"];
 uid = 'yaya';
 uid = 5;
+/*lesson #6 */
+var distance = 50;
+distance = "far";
+distance = {
+    km: 50,
+    dist: "far"
+};
+var table = [];
+table.push(5);
+table.push("cool");
+table.push(false);
+var object;

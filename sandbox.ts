@@ -43,12 +43,29 @@ ninja_cat = {
     food_fav: "fish"
 }
 /*lesson #5 */
+//basic types
 let flower : String;
 let flowerAge: number;
 let smellsGood: boolean;
+//arrays
 let cats: String[] = [];
 let hybred: (String | number)[] = []
 let uid: String|number;
+//objects
+let test1: object;
+test1 = {
+    title:"algebra",
+    grade: 3
+}
+
+let test2:{
+    title: String,
+    grade: number
+}
+test2 = {
+    title:"algebra",
+    grade: 3
+}
 
 flowerAge = 50;
 smellsGood = true;
@@ -56,3 +73,20 @@ cats = ["yuki"];
 uid = 'yaya'
 uid = 5
 
+/*lesson #6 */
+let distance : any = 50;
+distance = "far"
+distance = {
+    km:50,
+    dist:"far"
+}
+
+let table:any[] = [];
+table.push(5)
+table.push("cool")
+table.push(false)
+
+let object: {
+    name:any,
+    profission:any
+}
