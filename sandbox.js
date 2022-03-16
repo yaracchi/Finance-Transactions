@@ -19,3 +19,22 @@ var circ = function (diameter) {
 };
 //console.log(circ("yara"))
 console.log(circ(5));
+/*lesson #4 */
+var names = ["yara", "lamia", "lyna"];
+names.push("daouia");
+//names.push(3)
+//names = "kiki"
+var mixed = ["yara", 15, "lyna"];
+mixed.push(3);
+mixed[2] = 22;
+var ninja_cat = {
+    name: "yuki",
+    age: 6,
+    food_fav: "chiken"
+};
+ninja_cat.food_fav = "chicken";
+ninja_cat = {
+    name: "minette",
+    age: 5,
+    food_fav: "fish"
+};
