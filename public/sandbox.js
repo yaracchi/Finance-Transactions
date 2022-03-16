@@ -1,4 +1,5 @@
-/*lesson #2 */
+"use strict";
+/*****lesson #2
 //const firstName = 'yara';
 //console.log(firstName)
 
@@ -9,7 +10,7 @@
 //inputs.forEach(input => {
    // console.log(input)
 //})
-/*lesson #3 */
+/*lesson #3
 let firstName = "yara";
 let age = 23;
 let loveCat = true;
@@ -22,7 +23,7 @@ const circ = (diameter: number)=>{
 //console.log(circ("yara"))
 console.log(circ(5));
 
-/*lesson #4 */
+/*lesson #4
 let names = ["yara","lamia","lyna"]
 names.push("daouia")
 //names.push(3)
@@ -42,7 +43,7 @@ ninja_cat = {
     age: 5,
     food_fav: "fish"
 }
-/*lesson #5 */
+/*lesson #5
 //basic types
 let flower : String;
 let flowerAge: number;
@@ -73,20 +74,16 @@ cats = ["yuki"];
 uid = 'yaya'
 uid = 5
 
-/*lesson #6 */
+/*lesson #6 *
 let distance : any = 50;
 distance = "far"
 distance = {
     km:50,
     dist:"far"
 }
-
-let table:any[] = [];
-table.push(5)
-table.push("cool")
-table.push(false)
-
-let object: {
-    name:any,
-    profission:any
-}
+*/
+let table = [];
+table.push(5);
+table.push("cool");
+table.push(false);
+let object;
