@@ -80,7 +80,7 @@ distance = {
     km:50,
     dist:"far"
 }
-*/
+
 let table:any[] = [];
 table.push(5)
 table.push("cool")
@@ -90,3 +90,5 @@ let object: {
     name:any,
     profission:any
 } 
+*/
+console.log("")
