@@ -91,4 +91,16 @@ let object: {
     profission:any
 } 
 */
-console.log("")
+let greet : Function //declare it
+//define it
+greet = (say : string, a: number, b: number = 10, c?: number) => { //b & c is optional
+console.log(say)
+console.log(a+ 10)
+
+}
+
+let add = (a:number, b:number): number => {
+    return a+b
+}
+//call it
+let result = add(10, 13)

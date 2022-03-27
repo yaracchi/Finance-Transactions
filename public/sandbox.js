@@ -92,4 +92,14 @@ let object: {
     profission:any
 }
 */
-console.log("");
+let greet; //declare it
+//define it
+greet = (say, a, b = 10, c) => {
+    console.log(say);
+    console.log(a + 10);
+};
+let add = (a, b) => {
+    return a + b;
+};
+//call it
+let result = add(10, 13);
