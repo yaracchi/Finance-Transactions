@@ -91,15 +91,56 @@ let object: {
     name:any,
     profission:any
 }
-*/
-let greet; //declare it
+
+let greet : Function //declare it
 //define it
-greet = (say, a, b = 10, c) => {
-    console.log(say);
-    console.log(a + 10);
-};
-let add = (a, b) => {
-    return a + b;
-};
+greet = (say : string, a: number, b: number = 10, c?: number) => { //b & c is optional
+console.log(say)
+console.log(a+ 10)
+}
+
+let add = (a:number, b:number): number => {
+    return a+b
+}
 //call it
-let result = add(10, 13);
+let result = add(10, 13)
+//create my own type = TYPE ALIASES to reduce code
+type ObjName = {name : string, uid: string | number}
+let greet = (person :ObjName) => { //b & c is optional
+    console.log(person)
+    }
+//define structure and type of the fucntion: function signature
+
+ let hey : (a: string, b:string) => void //this var hey will hold a function with thoses conditions
+ hey = (name: string, greeting:string) => {
+     console.log(`${name} says ${greeting}`)//templatestrings
+ }
+
+ let calc : (a:number, b:number, c: string) => number
+calc = (numOne: number, numTwo:number, func:string) => {
+    if(func === "add"){
+       return numOne+ numTwo
+    }else if (func === "minus"){
+        return -numOne+ numTwo
+    } else{
+        console.log("sorry we can not execute this function")
+        return 0
+    }
+}
+type person = {name: string, password:number} //type aliases
+
+let detailsLog: (obj:person) => boolean;
+detailsLog = (person :person) => {
+    if(person.password.toString().length > 8){
+        console.log(`password length is ${person.password.toString().length }`)
+        return true;
+    }else{
+        console.log(`password length is ${person.password.toString().length }`)
+        return false;
+    }
+}
+ hey("yara","konishiwa")
+ let result = calc(10,33,"minus")
+ console.log(`my age is ${result}`)
+ const me={name:"yara", password:15937868}
+ let logging = detailsLog(me)*/
